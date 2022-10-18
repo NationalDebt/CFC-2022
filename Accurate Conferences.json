@@ -7,7 +7,7 @@
     "MWC": "PAC",
     "AAC": "GWC"
   },
-  "baseYear": 2014,
+  "baseYear": 2022,
   "relegationRoutes": {
     "SEC": "SUN",
     "B10": "MAC",
@@ -19,7 +19,7 @@
   "conferences": [
     {
       "confFullName": "Southeastern",
-      "confPrestige": "95",
+      "confPrestige": "85",
       "confName": "SEC",
       "confTeams": [
         {
@@ -39,7 +39,7 @@
           "abbreviation": "ARK",
           "rival": ["UTK"],
           "rivalryNames": {},
-          "prestige": "85",
+          "prestige": "80",
           "hexColor": "#9D2235"
         },
         {
@@ -50,7 +50,7 @@
             "rivalryNames": {
                 "ALA": "Iron Bowl"
             },
-            "prestige": "90",
+            "prestige": "80",
             "hexColor": "#0C2340"
         },
         {
@@ -61,7 +61,7 @@
             "rivalryNames": {
                 "UGA": "World's Largest Cocktail Party"
             },
-            "prestige": "90",
+            "prestige": "85",
             "hexColor": "#0021A5"
         },
         {
@@ -83,19 +83,17 @@
             "rivalryNames": {
                 "TAMU": "Sabine Showdown"
             },
-            "prestige": "90",
+            "prestige": "85",
             "hexColor": "#461D7C"
         },
         {
-            "name": "Oklahoma",
-            "state": "Oklahoma",
-            "abbreviation": "OKLA",
-            "rival": ["UTA"],
-            "rivalryNames": {
-                "UTA": "Red River Shootout"
-            },
-            "prestige": "90",
-            "hexColor": "#841617"
+            "name": "Kentucky",
+            "state": "Kentucky",
+            "abbreviation": "UK",
+            "rival": ["LOU"],
+            "rivalryNames": {},
+            "prestige": "80",
+            "hexColor": "#0033A0"
         },
         {
             "name": "Tennessee",
@@ -103,19 +101,19 @@
             "abbreviation": "UTK",
             "rival": ["ARK"],
             "rivalryNames": {},
-            "prestige": "90",
+            "prestige": "85",
             "hexColor": "#FF8200"
         },
         {
-            "name": "Texas",
-            "state": "Texas",
-            "abbreviation": "UTA",
-            "rival": ["OKLA"],
+            "name": "South Carolina",
+            "state": "South Carolina",
+            "abbreviation": "SC",
+            "rival": ["CLEM"],
             "rivalryNames": {
-                "OKLA": "Red River Shootout"
+                "CLEM": "The Palmetto Bowl"
             },
-            "prestige": "95",
-            "hexColor": "#BF5700"
+            "prestige": "75",
+            "hexColor": "#73000A"
         },
         {
             "name": "Texas A&M",
@@ -132,7 +130,7 @@
     },
     {
         "confFullName": "Big 10",
-        "confPrestige": "95",
+        "confPrestige": "90",
         "confName": "B10",
         "confTeams": [
             {
@@ -141,7 +139,7 @@
               "abbreviation": "ILLI",
               "rival": ["NU"],
               "rivalryNames": {},
-              "prestige": "85",
+              "prestige": "80",
               "hexColor": "#13294B"
           },  
           {
@@ -248,8 +246,10 @@
                 "name": "Clemson",
                 "state": "South Carolina",
                 "abbreviation": "CLEM",
-                "rival": ["GTU"],
-                "rivalryNames": {},
+                "rival": ["SC"],
+                "rivalryNames": {
+                      "SC": "The Palmetto Bowl"
+                },
                 "prestige": "95",
                 "hexColor": "#F56600"
               },
@@ -275,9 +275,9 @@
                   "name": "Georgia Tech",
                   "state": "Georgia",
                   "abbreviation": "GTU",
-                  "rival": ["CLEM"],
+                  "rival": ["UCF"],
                   "rivalryNames": {},
-                  "prestige": "80",
+                  "prestige": "70",
                   "hexColor": "#B3A369"
               },
               {
@@ -331,7 +331,7 @@
                   "abbreviation": "WFU",
                   "rival": ["NCST"],
                   "rivalryNames": {},
-                  "prestige": "80",
+                  "prestige": "85",
                   "hexColor": "#9E7E38"
               }
         ]
@@ -351,13 +351,15 @@
                 "hexColor": "#154734"
               },
               {
-                  "name": "Cincinnati",
-                  "state": "Ohio",
-                  "abbreviation": "UC",
-                  "rival": ["WVU"],
-                  "rivalryNames": {},
-                  "prestige": "85",
-                  "hexColor": "#E00122"
+                  "name": "Texas",
+                  "state": "Texas",
+                  "abbreviation": "UTA",
+                  "rival": ["OKLA"],
+                  "rivalryNames": {
+                      "OKLA": "Red River Shootout"
+                  },
+                  "prestige": "90",
+                  "hexColor": "#BF5700"
               },
               {
                   "name": "Houston",
@@ -423,13 +425,15 @@
                   "hexColor": "#CC0000"
               },
               {
-                  "name": "West Virginia",
-                  "state": "West Virginia",
-                  "abbreviation": "WVU",
-                  "rival": ["UC"],
-                  "rivalryNames": {},
-                  "prestige": "85",
-                  "hexColor": "#002855"
+                  "name": "Oklahoma",
+                  "state": "Oklahoma",
+                  "abbreviation": "OKLA",
+                  "rival": ["UTA"],
+                  "rivalryNames": {
+                      "UTA": "Red River Shootout"
+                  },
+                  "prestige": "90",
+                  "hexColor": "#841617"
               }
         ]
     },
@@ -505,7 +509,7 @@
                 "name": "South California",
                 "state": "California",
                 "abbreviation": "USC",
-                "rival": ["USCLA"],
+                "rival": ["UCLA"],
                 "rivalryNames": {},
                 "prestige": "85",
                 "hexColor": "#990000"
@@ -622,7 +626,7 @@
                 "abbreviation": "VAN",
                 "rival": ["MO"],
                 "rivalryNames": {},
-                "prestige": "75",
+                "prestige": "70",
                 "hexColor": "#866D4B"
               }
         ]
@@ -848,19 +852,19 @@
                 "name": "Central Florida",
                 "state": "Florida",
                 "abbreviation": "UCF",
-                "rival": ["SC"],
+                "rival": ["GT"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#BA9B37"
               },
               {
-                "name": "Kentucky",
-                "state": "Kentucky",
-                "abbreviation": "UK",
-                "rival": ["LOU"],
+                "name": "Cincinnati",
+                "state": "Ohio",
+                "abbreviation": "UC",
+                "rival": ["WVU"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#0033A0"
+                "hexColor": "#E00122"
               },
               {
                 "name": "Louisville",
@@ -908,13 +912,13 @@
                 "hexColor": "#003594"
               },
               {
-                "name": "South Carolina",
-                "state": "South Carolina",
-                "abbreviation": "SC",
-                "rival": ["UCF"],
+                "name": "West Virginia",
+                "state": "West Virginia",
+                "abbreviation": "WVU",
+                "rival": ["UC"],
                 "rivalryNames": {},
-                "prestige": "80",
-                "hexColor": "#73000A"
+                "prestige": "85",
+                "hexColor": "#002855"
               }
         ]
     },
